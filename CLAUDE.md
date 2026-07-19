@@ -1,0 +1,1 @@
+Read "Agent工作指引.md" uploaded by me and "Project Instruction" in root directory as your rules.

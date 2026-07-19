@@ -1,0 +1,57 @@
+[project]
+name = "llm-chat-platform"
+version = "0.1.0"
+description = "企业智能协同平台 - AI-powered enterprise collaboration platform"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.6",
+    "uvicorn[standard]>=0.34.0",
+    "starlette>=0.41.3",
+    "aiofiles>=24.1.0",
+    "aiohttp>=3.11.11",
+    "sqlalchemy>=2.0.36",
+    "aiomysql>=0.2.0",
+    "pymysql>=1.1.1",
+    "alembic>=1.14.1",
+    "cryptography>=44.0.0",
+    "redis>=5.2.1",
+    "pydantic>=2.10.4",
+    "pydantic-settings>=2.7.1",
+    "PyJWT>=2.10.1",
+    "passlib[bcrypt]>=1.7.4",
+    "python-multipart>=0.0.20",
+    "python-socketio>=5.11.4",
+    "websockets>=14.1",
+    "elasticsearch>=8.17.0,<9.0.0",
+    "dashscope>=1.22.0",
+    "openai>=1.59.3",
+    "httpx>=0.28.1",
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.3.0",
+    "selenium>=4.28.1",
+    "docker>=7.1.0",
+    "restrictedpython>=7.4",
+    "Pillow>=11.1.0",
+    "openpyxl>=3.1.5",
+    "reportlab>=4.2.5",
+    "python-docx>=1.1.2",
+    "weasyprint>=64.0",
+    "apscheduler>=3.11.0",
+    "python-dateutil>=2.9.0",
+    "loguru>=0.7.3",
+    "cel-python>=0.1.4",
+    "typer>=0.15.1",
+    "pytest>=8.3.4",
+    "pytest-asyncio>=0.25.0",
+    "watchfiles>=1.0.4",
+    "sqlparse>=0.5.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.

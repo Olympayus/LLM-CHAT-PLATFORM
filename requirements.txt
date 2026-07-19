@@ -1,0 +1,72 @@
+# ============================================================
+# 企业智能协同平台 - LLM Chat Platform
+# Python 3.11+ / FastAPI / MySQL 5.7.26
+# ============================================================
+
+# --- Web Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+starlette==0.41.3
+
+# --- 异步支持 ---
+aiofiles==24.1.0
+aiohttp==3.11.11
+
+# --- 数据库 ---
+sqlalchemy==2.0.36
+aiomysql==0.2.0
+pymysql==1.1.1
+alembic==1.14.1
+cryptography==44.0.0
+
+# --- Redis & 缓存 ---
+redis==5.2.1
+
+# --- 数据验证 ---
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# --- 认证 & 安全 ---
+PyJWT>=2.10.1
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.20
+
+# --- WebSocket & 即时通讯 ---
+python-socketio==5.11.4
+websockets==14.1
+
+# --- Elasticsearch (消息检索) ---
+elasticsearch==8.17.0
+
+# --- 阿里百炼 AI ---
+dashscope==1.22.0
+openai==1.59.3
+
+# --- 爬虫 & ETL ---
+httpx==0.28.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
+selenium==4.28.1
+
+# --- 沙箱执行 ---
+docker==7.1.0
+restrictedpython==8.3
+
+# --- 文件处理 & 导出 ---
+Pillow==11.1.0
+openpyxl==3.1.5
+reportlab==4.2.5
+python-docx==1.1.2
+weasyprint==69.0
+
+# --- 任务调度 ---
+apscheduler==3.11.0
+
+# --- 工具库 ---
+python-dateutil==2.9.0
+loguru==0.7.3
+cel-python==0.1.4
+typer==0.15.1
+
+# --- 测试 ---
+pytest==
